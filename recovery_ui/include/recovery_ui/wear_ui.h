@@ -26,8 +26,6 @@ class WearRecoveryUI : public ScreenRecoveryUI {
  public:
   WearRecoveryUI();
 
-  bool Init(const std::string& locale) override;
-
   void SetStage(int current, int max) override;
 
  protected:
